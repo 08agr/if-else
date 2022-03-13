@@ -1,0 +1,37 @@
+
+	if statement :
+	Use the if statement to specify a block of Java code to be executed if a condition is true.
+
+	syntax :
+	if (condition) 
+	{
+	// block of code to be executed if the condition is true
+	}
+
+	example :
+
+	if (20 > 18)
+	{
+	System.out.println("20 is greater than 18");
+	}
+
+	The else Statement :
+	Use the else statement to specify a block of code to be executed if the condition is false.
+
+	syntax :
+
+	if (condition) {
+	  // block of code to be executed if the condition is true
+	} else {
+	  // block of code to be executed if the condition is false
+	}
+
+	example :
+
+	int time = 20;
+	if (time < 18) {
+	  System.out.println("Good day.");
+	} else {
+	  System.out.println("Good evening.");
+	}
+	// Outputs "Good evening."
